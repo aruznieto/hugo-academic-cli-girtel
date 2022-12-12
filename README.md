@@ -96,14 +96,10 @@ After importing publications, [a full text PDF and image can be associated with 
 
 Interested in contributing to **open source** and **open science**?
 
-Learn [how to contribute code on Github](https://codeburst.io/a-step-by-step-guide-to-making-your-first-github-contribution-5302260a2940).
-
-Check out the [open issues](https://github.com/wowchemy/hugo-academic-cli/issues) and contribute a [Pull Request](https://github.com/wowchemy/hugo-academic-cli/pulls). 
-
 For local development, clone this repository and use Pipenv to install the tool using the following commands:
 
-    git clone https://github.com/wowchemy/hugo-academic-cli.git
-    cd hugo-academic-cli
+    git clone https://github.com/aruznieto/hugo-academic-cli-girtel.git
+    cd hugo-academic-cli-girtel
     pip3 install pipenv
     pipenv install -e .
 
