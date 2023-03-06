@@ -133,6 +133,8 @@ def parse_bibtex_entry(
         publication = "*" + clean_bibtex_str(entry["booktitle"]) + "*"
     elif "journaltitle" in entry:
         publication = "*" + clean_bibtex_str(entry["journaltitle"]) + "*"
+    elif "journal" in entry:
+        publication = "*" + clean_bibtex_str(entry["journal"]) + "*"
     elif "publisher" in entry:
         publication = "*" + clean_bibtex_str(entry["publisher"]) + "*"
     else:
