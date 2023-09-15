@@ -14,5 +14,5 @@ academic = {editable = true, path = "."}
 pytest = "*"
 flake8 = "*"
 twine = "*"
-black = "==19.10b0"
+black = "*"
 isort = "*"
